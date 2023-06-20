@@ -18,8 +18,8 @@ let removedValues = "";
 
 const implementWithout = function(source, itemsToRemove) {
      
-    for (var i = 0; i < source.length; i++) {
-        for (var j = 0; j < itemsToRemove.length; j++) {
+    for (let i = 0; i < source.length; i++) {
+        for (let j = 0; j < itemsToRemove.length; j++) {
             if (source[i] === itemsToRemove[j]) {
                 removedValues = source.splice(i, 1);
                 
